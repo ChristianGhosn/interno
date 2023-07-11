@@ -1,12 +1,12 @@
+import { Outlet } from "react-router-dom";
 import "./App.css";
 import { Nav, Footer } from "./components";
-import { Home } from "./pages";
 
 function App() {
   return (
     <div className="app">
       <Nav />
-      <Home />
+      <Outlet />
       <Footer />
     </div>
   );

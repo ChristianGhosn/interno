@@ -13,21 +13,21 @@ const content = [
   {
     title: "Pages",
     links: [
-      { title: "About Us", link: "/about-us" },
-      { title: "Our Projects", link: "/projects" },
-      { title: "Our Team", link: "/team" },
-      { title: "Contact Us", link: "/contact-us" },
-      { title: "Services", link: "/services" },
+      { title: "About Us", link: "/interno/about-us" },
+      { title: "Our Projects", link: "/interno/projects" },
+      { title: "Our Team", link: "/interno/team" },
+      { title: "Contact Us", link: "/interno/contact-us" },
+      { title: "Services", link: "/interno/services" },
     ],
   },
   {
     title: "Services",
     links: [
-      { title: "Kitchen", link: "/kitchen" },
-      { title: "Living Area", link: "/living-area" },
-      { title: "Bathroom", link: "/bathroom" },
-      { title: "Dining Hall", link: "/dining" },
-      { title: "Bedroom", link: "/bedroom" },
+      { title: "Kitchen", link: "/interno/kitchen" },
+      { title: "Living Area", link: "/interno/living-area" },
+      { title: "Bathroom", link: "/interno/bathroom" },
+      { title: "Dining Hall", link: "/interno/dining" },
+      { title: "Bedroom", link: "/interno/bedroom" },
     ],
   },
   {

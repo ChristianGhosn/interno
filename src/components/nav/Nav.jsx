@@ -4,14 +4,15 @@ import { logoLarge } from "../../assets/index.js";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { AiOutlineClose } from "react-icons/ai";
 import { BsSearch } from "react-icons/bs";
+import { Link } from "react-router-dom";
 
 const navItems = [
-  { title: "Home", link: "/" },
-  { title: "Pages", link: "/pages" },
-  { title: "Services", link: "/services" },
-  { title: "Project", link: "/project" },
-  { title: "Blog", link: "/blog" },
-  { title: "Contact", link: "/contact" },
+  { title: "Home", link: "/interno/" },
+  { title: "Pages", link: "/interno/pages" },
+  { title: "Services", link: "/interno/services" },
+  { title: "Project", link: "/interno/project" },
+  { title: "Blog", link: "/interno/blog" },
+  { title: "Contact", link: "/interno/contact" },
 ];
 
 const Nav = () => {
@@ -20,7 +21,9 @@ const Nav = () => {
 
   return (
     <nav className="container-wrapper nav">
-      <img src={logoLarge} alt="logo" className="logo" />
+      <Link to="/interno/">
+        <img src={logoLarge} alt="logo" className="logo" />
+      </Link>
       <ul className={toggleSearch ? "w-half nav-list" : "nav-list"}>
         {toggleSearch ? (
           <form className="nav-search-form">
@@ -30,7 +33,7 @@ const Nav = () => {
           navItems.map((item, index) => {
             return (
               <li className="link text" key={index}>
-                <a href={item.link}>{item.title}</a>
+                <Link to={item.link}>{item.title}</Link>
               </li>
             );
           })
@@ -103,7 +106,7 @@ const Nav = () => {
             {navItems.map((item, index) => {
               return (
                 <li className="link text" key={index}>
-                  <a href={item.link}>{item.title}</a>
+                  <Link to={item.link}>{item.title}</Link>
                 </li>
               );
             })}

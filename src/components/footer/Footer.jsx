@@ -8,6 +8,7 @@ import {
   twitter,
   linkedin,
 } from "../../assets/index";
+import { Link } from "react-router-dom";
 
 const content = [
   {
@@ -48,7 +49,9 @@ const Footer = () => {
     <div>
       <footer className="container-wrapper footer">
         <div className="main">
-          <img src={logoLarge} alt="logo" className="logo" />
+          <Link to="/interno/">
+            <img src={logoLarge} alt="logo" className="logo" />
+          </Link>
           <p className="text">
             It is a long established fact that a reader will be distracted
             lookings.
@@ -66,9 +69,9 @@ const Footer = () => {
               <h4 className="heading-4">{column.title}</h4>
               {column.links.map((link, index) => {
                 return (
-                  <a href={link.link} className="text link" key={index}>
+                  <Link to={link.link} className="text link" key={index}>
                     {link.title}
-                  </a>
+                  </Link>
                 );
               })}
             </div>

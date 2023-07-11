@@ -1,0 +1,18 @@
+.clientLogos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 64px;
+  margin-top: 110px;
+  flex-wrap: wrap;
+}
+
+.clientLogos img {
+  height: 50px;
+}
+
+@media screen and (max-width: 650px) {
+  .clientLogos {
+    flex-direction: column;
+  }
+}

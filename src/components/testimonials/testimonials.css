@@ -1,0 +1,19 @@
+.testimonials {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  gap: 38px;
+  padding: 64px 24px;
+  background-color: var(--color-cream);
+  border-radius: 58px;
+  margin-top: 110px;
+}
+
+.testimonials_cards {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  flex-wrap: wrap;
+  gap: 24px;
+}

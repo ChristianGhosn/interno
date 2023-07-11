@@ -1,0 +1,31 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 100px;
+  margin-bottom: 100px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  max-width: 400px;
+}
+
+.footer-socials {
+  margin-top: 13px;
+  display: flex;
+  gap: 48px;
+}
+
+.footer-col {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  gap: 8px;
+}
+
+.footer-col h4 {
+  margin-bottom: 6px;
+}

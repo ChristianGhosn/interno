@@ -1,0 +1,36 @@
+.testimonialCard {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  max-width: 350px;
+  text-align: start;
+  background-color: #fff;
+  padding: 54px 26px;
+  border-radius: 32px;
+}
+
+.testimonialCard_profile {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.testimonialCard_profile-img {
+  height: 70px;
+  width: 70px;
+  overflow: hidden;
+  position: relative;
+  border-radius: 100%;
+}
+
+.testimonialCard_profile-img img {
+  position: absolute;
+  right: -30px;
+}
+
+.testimonialCard_profile_details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}

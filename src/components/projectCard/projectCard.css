@@ -1,0 +1,40 @@
+.projectCard {
+  max-width: 500px;
+}
+
+.projectCard_img {
+  max-width: 600px;
+  overflow: hidden;
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 32px 32px 0 0;
+}
+
+.projectCard_content {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 18px;
+}
+
+@media screen and (max-width: 1150px) {
+  .projectCard_img {
+    max-width: 550px;
+    height: 425px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .projectCard_img {
+    max-width: 500px;
+    height: 400px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .projectCard_img {
+    max-width: 350px;
+    height: 300px;
+  }
+}

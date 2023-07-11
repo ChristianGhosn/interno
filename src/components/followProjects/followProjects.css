@@ -1,0 +1,24 @@
+.followProjects {
+  margin-top: 110px;
+}
+
+.followProjects_heading {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.followProjects_heading p {
+  max-width: 600px;
+  margin-top: 18px;
+}
+
+.followProjects-projects {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 36px;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 64px;
+}

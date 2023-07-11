@@ -105,7 +105,11 @@ const Nav = () => {
           <ul className="smscreen-nav-list">
             {navItems.map((item, index) => {
               return (
-                <li className="link text" key={index}>
+                <li
+                  className="link text"
+                  key={index}
+                  onClick={() => setToggle(false)}
+                >
                   <Link to={item.link}>{item.title}</Link>
                 </li>
               );

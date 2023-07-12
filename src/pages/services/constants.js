@@ -1,4 +1,13 @@
-import { clipboard, stationary, house, climb } from "../../assets";
+import {
+  clipboard,
+  stationary,
+  house,
+  climb,
+  howWeWork1,
+  howWeWork2,
+  howWeWork3,
+  howWeWork4,
+} from "../../assets";
 
 const constants = {
   work: [
@@ -29,28 +38,28 @@ const constants = {
   ],
   howWeWork: [
     {
-      imageSrc: "howWeWork1.jpg",
+      imageSrc: howWeWork1,
       icon: clipboard,
       headingNum: "01",
       heading: "Concept & Details",
       text: "It is a long established fact  will be distracted. Lorem Ipsum is simply dummy from text of the and typesetting indufstry.",
     },
     {
-      imageSrc: "howWeWork2.jpg",
+      imageSrc: howWeWork2,
       icon: stationary,
       headingNum: "02",
       heading: "Idea for Work",
       text: "It is a long established fact  will be distracted. Lorem Ipsum is simply dummy from text of the and typesetting indufstry.",
     },
     {
-      imageSrc: "howWeWork3.jpg",
+      imageSrc: howWeWork3,
       icon: house,
       headingNum: "03",
       heading: "Design",
       text: "It is a long established fact  will be distracted. Lorem Ipsum is simply dummy from text of the and typesetting indufstry.",
     },
     {
-      imageSrc: "howWeWork4.jpg",
+      imageSrc: howWeWork4,
       icon: climb,
       headingNum: "04",
       heading: "Perfection",

@@ -15,7 +15,6 @@ const HowWeWork = ({ howWeWork }) => {
       </div>
       <div className="howWeWork_content">
         {howWeWork.map((item, index) => {
-          console.log((index + 1) % 2);
           return (
             <HowWeWorkCard
               key={index}

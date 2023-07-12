@@ -13,7 +13,7 @@ const HowWeWorkCard = ({
     <div className={className ? `${className} howWeWorkCard` : "howWeWorkCard"}>
       <div
         className="howWeWorkCard_img"
-        style={{ backgroundImage: `url(src/assets/${imageSrc})` }}
+        style={{ backgroundImage: `url(${imageSrc})` }}
       />
       <div className="howWeWorkCard_content">
         <div className="howWeWorkCard_content_upper">

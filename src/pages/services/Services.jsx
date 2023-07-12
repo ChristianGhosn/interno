@@ -4,12 +4,13 @@ import "./services.css";
 import { Contact, Banner, WorkCard, HowWeWork } from "../../components";
 
 import constants from "./constants";
+import { article3 } from "../../assets";
 
 const Services = () => {
   return (
     <div className="container-wrapper">
       <Banner
-        image="article3.jpg"
+        image={article3}
         heading="Services"
         parent="Home"
         child="Services"

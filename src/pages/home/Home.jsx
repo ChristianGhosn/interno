@@ -5,7 +5,7 @@ import constants from "./constants";
 import {
   AboutHero,
   Blog,
-  Banner,
+  HomeBanner,
   ClientLogos,
   Counter,
   FollowProjects,
@@ -17,7 +17,7 @@ import {
 const Home = () => {
   return (
     <div className="container-wrapper">
-      <Banner />
+      <HomeBanner />
       <div className="home_work">
         {constants.work.map((item, index) => {
           return <WorkCard title={item.title} text={item.text} key={index} />;

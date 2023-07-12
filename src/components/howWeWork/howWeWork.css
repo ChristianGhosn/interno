@@ -1,0 +1,30 @@
+.howWeWork {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 110px;
+  background-color: var(--color-cream);
+  border-radius: 32px;
+  padding: 64px;
+}
+
+.howWeWork_heading {
+  text-align: center;
+  max-width: 80%;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+@media screen and (max-width: 850px) {
+  .howWeWork {
+    padding: 64px 24px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .howWeWork {
+    padding: 64px 8px;
+  }
+}

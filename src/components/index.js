@@ -1,6 +1,6 @@
 import Nav from "./nav/Nav";
 import Footer from "./footer/Footer";
-import Banner from "./banner/Banner";
+import HomeBanner from "./homeBanner/HomeBanner";
 import WorkCard from "./workCard/WorkCard";
 import AboutHero from "./aboutHero/AboutHero";
 import Testimonials from "./testimonials/Testimonials";
@@ -10,11 +10,14 @@ import Counter from "./counter/Counter";
 import Blog from "./blog/Blog";
 import BlogCard from "./blogCard/BlogCard";
 import Contact from "./contact/Contact";
+import Banner from "./banner/Banner";
+import HowWeWork from "./howWeWork/HowWeWork";
+import HowWeWorkCard from "./howWeWorkCard/HowWeWorkCard";
 
 export {
   Nav,
   Footer,
-  Banner,
+  HomeBanner,
   WorkCard,
   AboutHero,
   Testimonials,
@@ -24,4 +27,7 @@ export {
   Blog,
   BlogCard,
   Contact,
+  Banner,
+  HowWeWork,
+  HowWeWorkCard,
 };

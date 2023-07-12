@@ -1,18 +1,17 @@
 import React from "react";
 import "./banner.css";
 
-import Button from "../button/Button";
-
-const Banner = () => {
+const Banner = ({ image, heading, parent, child }) => {
   return (
-    <div className="banner-img">
-      <div className="banner-content">
-        <h1 className="heading-1">Let Your Home Be Unique</h1>
+    <div
+      className="banner"
+      style={{ backgroundImage: `url(src/assets/${image})` }}
+    >
+      <div className="banner_div">
+        <h1 className="heading-1">{heading}</h1>
         <p className="text">
-          There are many variations of the passages of lorem Ipsum
-          fromavailable, majority.
+          {parent} / {child}
         </p>
-        <Button type="button" className="" label="Get Free Estimate" />
       </div>
     </div>
   );

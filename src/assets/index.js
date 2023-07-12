@@ -12,6 +12,10 @@ import clipboard from "./clipboard.png";
 import facebook from "./facebook.svg";
 import hallwayProject from "./hallwayProject.png";
 import house from "./house.png";
+import howWeWork1 from "./howWeWork1.jpg";
+import howWeWork2 from "./howWeWork1.jpg";
+import howWeWork3 from "./howWeWork1.jpg";
+import howWeWork4 from "./howWeWork1.jpg";
 import insta from "./insta.svg";
 import kitchen from "./kitchen.jpg";
 import kitchenProject from "./kitchenProject.png";
@@ -48,6 +52,10 @@ export {
   facebook,
   hallwayProject,
   house,
+  howWeWork1,
+  howWeWork2,
+  howWeWork3,
+  howWeWork4,
   insta,
   kitchen,
   kitchenProject,

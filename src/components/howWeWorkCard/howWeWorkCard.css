@@ -1,0 +1,41 @@
+.howWeWorkCard {
+  display: flex;
+  gap: 48px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+  padding: 32px;
+}
+
+.howWeWorkCard_img {
+  width: 100%;
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 0px 123px 0px 326.5px;
+}
+
+.howWeWorkCard_content_upper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 32px;
+}
+
+.howWeWorkCard_content_upper img {
+  height: 92px;
+  width: 92px;
+}
+
+.reverse {
+  flex-direction: row-reverse;
+}
+
+@media screen and (max-width: 1150px) {
+  .howWeWorkCard {
+    flex-direction: column;
+    margin-top: 20px;
+    padding: 24px;
+  }
+}

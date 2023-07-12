@@ -9,6 +9,7 @@ import chevronRight from "./ChevronRight.png";
 import classicDesignStudio from "./classicDesignStudio.png";
 import climb from "./climb.png";
 import clipboard from "./clipboard.png";
+import error from "./error.jpg";
 import facebook from "./facebook.svg";
 import hallwayProject from "./hallwayProject.png";
 import house from "./house.png";
@@ -49,6 +50,7 @@ export {
   classicDesignStudio,
   climb,
   clipboard,
+  error,
   facebook,
   hallwayProject,
   house,

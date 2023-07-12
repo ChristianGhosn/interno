@@ -7,7 +7,7 @@ const HowWeWork = ({ howWeWork }) => {
   return (
     <div className="howWeWork">
       <div className="howWeWork_heading">
-        <h2 className="heading-2">How We Work</h2>
+        <h1 className="heading-1">How We Work</h1>
         <p className="paragraph">
           It is a long established fact will be distracted. Lorem Ipsum is
           simply dummy text of the printing and typesetting industry.
@@ -15,6 +15,7 @@ const HowWeWork = ({ howWeWork }) => {
       </div>
       <div className="howWeWork_content">
         {howWeWork.map((item, index) => {
+          console.log(item.imageSrc, index);
           return (
             <HowWeWorkCard
               key={index}

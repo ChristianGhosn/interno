@@ -1,0 +1,39 @@
+.peopleCard {
+  height: 430px;
+  width: 250px;
+  border-radius: 32px;
+  background-size: cover;
+  background-position: center;
+  background-color: var(--color-white);
+  cursor: pointer;
+}
+
+.peopleCard_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  padding: 48px;
+}
+
+.peopleCard_text_socials {
+  display: flex;
+  gap: 12px;
+}
+
+.peopleCard_text_socials img {
+  height: 18px;
+  width: 18px;
+  cursor: pointer;
+}
+
+.peopleCard_text_upper,
+.peopleCard_text_lower {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}

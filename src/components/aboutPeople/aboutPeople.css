@@ -1,0 +1,34 @@
+.aboutPeople {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--color-cream);
+  padding: 64px 0;
+  margin: 110px -100px;
+}
+
+.aboutPeople_heading {
+  text-align: center;
+  max-width: 600px;
+}
+
+.aboutPeople_content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 28px;
+  padding: 64px 32px;
+}
+
+@media screen and (max-width: 1150px) {
+  .aboutPeople {
+    margin: 110px -50px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .aboutPeople {
+    margin: 110px -32px;
+  }
+}

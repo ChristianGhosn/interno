@@ -13,6 +13,11 @@ import Contact from "./contact/Contact";
 import Banner from "./banner/Banner";
 import HowWeWork from "./howWeWork/HowWeWork";
 import HowWeWorkCard from "./howWeWorkCard/HowWeWorkCard";
+import Quote from "./quote/Quote";
+import AboutWork from "./aboutWork/AboutWork";
+import PeopleCard from "./peopleCard/PeopleCard";
+import AboutPeople from "./aboutPeople/AboutPeople";
+import MailBox from "./mailBox/MailBox";
 
 export {
   Nav,
@@ -30,4 +35,9 @@ export {
   Banner,
   HowWeWork,
   HowWeWorkCard,
+  Quote,
+  AboutWork,
+  PeopleCard,
+  AboutPeople,
+  MailBox,
 };

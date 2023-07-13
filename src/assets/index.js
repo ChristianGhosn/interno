@@ -1,3 +1,6 @@
+import aboutWork1 from "./aboutWork1.jpg";
+import aboutWork2 from "./aboutWork2.jpg";
+import amie from "./amie.jpg";
 import article1 from "./article1.jpg";
 import article2 from "./article2.jpg";
 import article3 from "./article3.jpg";
@@ -29,8 +32,10 @@ import natasha from "./natasha.jpg";
 import natureHome from "./natureHome.png";
 import quote from "./quote.png";
 import raymond from "./raymond.jpg";
+import sam from "./sam.jpg";
 import search from "./Search.png";
 import seatingProject from "./seatingProject.png";
+import susie from "./susie.jpg";
 import star from "./Star.png";
 import stationary from "./stationary.png";
 import studyProject from "./studyProject.png";
@@ -39,6 +44,9 @@ import twitter from "./twitter.svg";
 import website from "./Wesite.png";
 
 export {
+  aboutWork1,
+  aboutWork2,
+  amie,
   article1,
   article2,
   article3,
@@ -70,8 +78,10 @@ export {
   natureHome,
   quote,
   raymond,
+  sam,
   search,
   seatingProject,
+  susie,
   star,
   stationary,
   studyProject,
